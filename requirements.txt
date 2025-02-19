@@ -7,3 +7,4 @@ flask_cors
 apscheduler
 logging
 pytest
+gunicorn

@@ -13,8 +13,8 @@ import requests
 from flask_cors import CORS
 
 # For automating response notification
-from apscheduler.schedulers.background import BackgroundScheduler
-import atexit
+# from apscheduler.schedulers.background import BackgroundScheduler
+# import atexit
 
 # Configure Logging
 logging.basicConfig(level=logging.INFO)
@@ -172,6 +172,6 @@ def get_integration_json():
 # atexit.register(lambda: scheduler.shutdown())
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
 
         
